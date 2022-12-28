@@ -1,7 +1,7 @@
 ---
 marp: true
 theme: sorbonne
-class: inverted
+class: invert
 ---
 
 <!-- _class: lead -->
