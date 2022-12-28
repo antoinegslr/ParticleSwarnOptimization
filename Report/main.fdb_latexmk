@@ -1,13 +1,13 @@
 # Fdb version 3
-["bibtex main"] 1672226773 "main.aux" "main.bbl" "main" 1672226776
-  "articles.bib" 1672226735 1470 621a453c4540762bb6b7bb6c4ce41edc ""
-  "c:/texlive/2022/texmf-dist/bibtex/bst/base/acm.bst" 1649248220 21064 c61a48664f3c347ce7f73c1a6a530506 ""
-  "main.aux" 1672226775 1730 707b592b3ca0ef672197ef110c443dbb "pdflatex"
+["bibtex main"] 1672237865 "main.aux" "main.bbl" "main" 1672237914
+  "articles.bib" 1672236209 4054 e5042454edc03ae57910e4b8725f0980 ""
+  "bibstyle.bst.bst" 0 -1 0 ""
+  "main.aux" 1672237914 1639 a3828bf75e936ee6a085079510a5bc5e "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
-["pdflatex"] 1672226774 "c:/Users/antoi/Documents/git/PSO/ParticleSwarnOptimization/Report/main.tex" "main.pdf" "main" 1672226776
-  "c:/Users/antoi/Documents/git/PSO/ParticleSwarnOptimization/Report/main.tex" 1672226771 5108 fbcf740f9f2bf6387a46a339a2d7daab ""
+["pdflatex"] 1672237912 "c:/Users/antoi/Documents/git/PSO/ParticleSwarnOptimization/Report/main.tex" "main.pdf" "main" 1672237914
+  "c:/Users/antoi/Documents/git/PSO/ParticleSwarnOptimization/Report/main.tex" 1672237911 7583 46646add763cb7759810e216c1dbe340 ""
   "c:/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1649248584 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "c:/texlive/2022/texmf-dist/fonts/map/fontname/texfonts.map" 1649249631 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "c:/texlive/2022/texmf-dist/fonts/tfm/jknappen/ec/tcrm1200.tfm" 1649249195 1536 74b7293ec3713bb7fdca8dd1bd1f469c ""
@@ -79,6 +79,8 @@
   "c:/texlive/2022/texmf-dist/tex/latex/base/atbegshi-ltx.sty" 1649250519 3034 3bfb87122e6fa8758225c0dd3cbaceba ""
   "c:/texlive/2022/texmf-dist/tex/latex/base/atveryend-ltx.sty" 1649250519 2462 754d6b31b2ab5a09bb72c348ace2ec75 ""
   "c:/texlive/2022/texmf-dist/tex/latex/base/size11.clo" 1649250519 8464 74db94825c407b51399ca17d9bd38a3d ""
+  "c:/texlive/2022/texmf-dist/tex/latex/caption/caption.sty" 1649248365 54291 b8e5c600d4aa37b48a740dd2a6c26163 ""
+  "c:/texlive/2022/texmf-dist/tex/latex/caption/caption3.sty" 1649248365 71241 d2cd3a1c5acef9cb31f945b93c0bb6e3 ""
   "c:/texlive/2022/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty" 1649249320 13886 d1306dcf79a944f6988e688c1785f9ce ""
   "c:/texlive/2022/texmf-dist/tex/latex/geometry/geometry.sty" 1649249763 41601 9cf6c5257b1bc7af01a58859749dd37a ""
   "c:/texlive/2022/texmf-dist/tex/latex/graphics-cfg/color.cfg" 1649249880 1213 620bba36b25224fa9b7e1ccb4ecb76fd ""
@@ -107,10 +109,12 @@
   "c:/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1649254389 4448422 53302d27d6d34c8e3e97ce3a8b4bdfa7 ""
   "c:/texlive/2022/texmf-var/web2c/pdftex/pdflatex.fmt" 1649254510 2826462 69316a9a72fef6c0e25b1540493bcaef ""
   "c:/texlive/2022/texmf.cnf" 1649254364 713 e69b156964470283e0530f5060668171 ""
-  "main.aux" 1672226775 1730 707b592b3ca0ef672197ef110c443dbb "pdflatex"
-  "main.bbl" 1672226774 756 190a6a6f1a4611f9a74be2ff7baa5fcd "bibtex main"
-  "main.out" 1672226775 1191 6f8adf943292840fc88a29a2f2df25ad "pdflatex"
-  "main.tex" 1672226771 5108 fbcf740f9f2bf6387a46a339a2d7daab ""
+  "figures/PSO.png" 1672237311 289066 7ec069619761ca1ae419b10fbf8102c8 ""
+  "figures/optim_figures.png" 1672230889 709531 19c7125437fcfce99e095bc86ef95b6f ""
+  "main.aux" 1672237914 1639 a3828bf75e936ee6a085079510a5bc5e "pdflatex"
+  "main.bbl" 1672237865 1420 9c8763dc7a5e83fcea87362f534ba037 "bibtex main"
+  "main.out" 0 -1 0 "pdflatex"
+  "main.tex" 1672237911 7583 46646add763cb7759810e216c1dbe340 ""
   (generated)
   "main.aux"
   "main.log"

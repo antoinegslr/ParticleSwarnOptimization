@@ -12,9 +12,26 @@
   under high pressure.
 \newblock {\em Phys. Rev. B 95\/} (Apr 2017), 144104.
 
+\bibitem{Falls2020}
+{\sc Falls, Z., Avery, P., Wang, X., Hilleke, K.~P., and Zurek, E.}
+\newblock The {XtalOpt} evolutionary algorithm for crystal structure
+  prediction.
+\newblock {\em The Journal of Physical Chemistry C 125}, 3 (Dec. 2020),
+  1601--1620.
+
 \bibitem{original}
 {\sc Naden~Robinson, V., Marqués, M., Wang, Y., Ma, Y., and Hermann, A.}
 \newblock Novel phases in ammonia-water mixtures under pressure.
 \newblock {\em The Journal of Chemical Physics 149}, 23 (2018), 234501.
+
+\bibitem{PhysRevB.82.094116}
+{\sc Wang, Y., Lv, J., Zhu, L., and Ma, Y.}
+\newblock Crystal structure prediction via particle-swarm optimization.
+\newblock {\em Phys. Rev. B 82\/} (Sep 2010), 094116.
+
+\bibitem{WANG20122063}
+{\sc Wang, Y., Lv, J., Zhu, L., and Ma, Y.}
+\newblock Calypso: A method for crystal structure prediction.
+\newblock {\em Computer Physics Communications 183}, 10 (2012), 2063--2070.
 
 \end{thebibliography}
