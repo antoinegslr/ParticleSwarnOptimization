@@ -53,22 +53,44 @@ This report, based on the publication from Naden Robinson et al. \cite{original}
 %Faire une introduction sur la nécessité de devoir générer des configurations par la théorie dans le cas de conditions expérimentales exotiques (on ne peut pas se baser sur des expériences précédentes car il n'y en a pas lol)
 \section*{Particle Swarn Optimization}
 \subsection*{Theoretical background}
-Particle Swarm Optimization (also called PSO) is a population-based optimization algorithm that simulates the social behavior of birds or insects, such as flocking or swarming.   \cite{PhysRevB.82.094116,WANG20122063}
+Particle Swarm Optimization (also called PSO) is a population-based optimization algorithm that simulates the social behavior of birds or insects, such as flocking or swarming. Every iteration, one optimization simulation's (called a particle) trajectory is inspired by its own personal local minimum (\verb+pbest+) that it can reach through gradient descent, and the global (on all particle) minimum (\verb+gbest+). Its application for structure discovery was introduced by Wang et al. \cite{PhysRevB.82.094116}, and transcribed into a software (called \textsc{calypso}) by the same authors \cite{WANG20122063}. The particle swarn optimization presents a simple algorithm:
 \begin{itemize}
 \itemsep0em
     \item Generation of one random structure per symmetry (avoids unnecessary calculations)
     \item Local optimization of every structure
-    \item Exclusion of similar structures
-    \item Generation of new structures by PSO
+    \item Exclusion of similar structures (through bond characterization matrix)
+    \item Generation of new structures by PSO, using personal and flock's histories (see below)
     \item Repeating steps 2, 3 and 4 until convergence is reached
     \item Returns the configuration with the lowest energy
 \end{itemize}
+The calculation of new structures by PSO formulas is carried out for each parameter individually.
+For the $i^\text{th}$ particle, we have the following equation for the calculation of the updated coordinates for dimension $j$:
+\begin{equation}
+    x_{i,j}^{t+1}=x_{i,j}^{t}+v_{i,j}^{t+1}
+\end{equation}
+With $v_{i,j}^{t+1}$ its velocity for the $j^\text{th}$ dimension:
+\begin{equation}
+    v_{i,j}^{t+1}=\omega v_{i,j}^t+c_1r_1(\verb+pbest+_{i,j}^t-x_{i,j}^t)+c_2r_2(\verb+gbest+_{i,j}^t-x_{i,j}^t)
+\end{equation}
+With $\omega$ being the inertia weight (translating the importance or not of previous velocity), $c_1$ and $c_2$ being respectively the self-confidence and the swarm confidence factor, and $r_i$ being random parameters. By changing the fixed parameters (by fixing them at first, or making them evoluate throughout the simulaton), it is possible to go from global jump, with long hoppings, to a precise localization of the minimum in its basin.
+A schematic of an iteration of generation of new coordinates for a particle on a specific coordinate is shown in Figure 2. 
 \bigskip
 
               \noindent \includegraphics[width=\columnwidth]{figures/PSO.png}
-                \captionof{figure}{Schematic explanation of particle swarn optimization, by Wang et al. \cite{PhysRevB.82.094116}}\medskip
+                \captionof{figure}{Schematic explanation of particle swarn optimization on one parameter, by Wang et al. \cite{PhysRevB.82.094116}}\medskip
+The advantage of such method is thus clearly visible: by taking into account samplings at various zones of the PES, and forcing particles to travel to a zone of interest, it is possible to force particles to get out of their local minima from one hand, but also to provide a better sampling around zones of interest (some will go further, some before the global minimum found at an iteration, which may lead to the discovery of a better minimum, etc...).\vspace{1em}
+
+Authors announce very interesting results in both their introduction article and the presentation of \textsc{calypso} \cite{PhysRevB.82.094116,WANG20122063}: starting from scratch, and using either DFT or empirical potentials (using the GULP code)
 \subsection*{Programming PSO, trial over a simple two-dimensional study case}
-Usage of the Eggholder function
+The code that has been developped following the above instructions, is available on Github (\href{https://github.com/antoinegslr/ParticleSwarnOptimization}{link here}). The algorithm was applied on a similar case study (yet with a lower dimensionality for the sake of simplicity)\\
+Usage of the Eggholder function\\
+\bigskip
+    \includegraphics[width=0.5\columnwidth]{figures/ite0.png}\includegraphics[width=0.5\columnwidth]{figures/ite1.png}\\
+\captionof{figure}{Visualization of particles on the Eggholder function at generation (left) and after one iteration (right)}\medskip
+Ouais\\
+\bigskip
+\includegraphics[width=\columnwidth]{figures/eggholder.png}
+\captionof{figure}{Optimization cycle using the Eggholder function}
 \section*{Obtained results}
 \section*{Comparison to other generation methods}
 
