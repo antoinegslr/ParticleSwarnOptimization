@@ -5,7 +5,7 @@ The style file: bibstyle.bst.bst
 Database file #1: articles.bib
 You've used 6 entries,
             1930 wiz_defined-function locations,
-            528 strings with 4679 characters,
+            528 strings with 4675 characters,
 and the built_in function-call counts, 1484 in all, are:
 = -- 116
 > -- 78

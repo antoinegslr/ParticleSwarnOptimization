@@ -1,13 +1,13 @@
 # Fdb version 3
-["bibtex main"] 1672237865 "main.aux" "main.bbl" "main" 1672237914
-  "articles.bib" 1672236209 4054 e5042454edc03ae57910e4b8725f0980 ""
+["bibtex main"] 1672349079 "main.aux" "main.bbl" "main" 1672349221
+  "articles.bib" 1672349078 4050 cbd69475e6f65a0297fdefb2e6fc1307 ""
   "bibstyle.bst.bst" 0 -1 0 ""
-  "main.aux" 1672237914 1639 a3828bf75e936ee6a085079510a5bc5e "pdflatex"
+  "main.aux" 1672349220 2098 20f66dce78e3657d620bc6438d922211 "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
-["pdflatex"] 1672237912 "c:/Users/antoi/Documents/git/PSO/ParticleSwarnOptimization/Report/main.tex" "main.pdf" "main" 1672237914
-  "c:/Users/antoi/Documents/git/PSO/ParticleSwarnOptimization/Report/main.tex" 1672237911 7583 46646add763cb7759810e216c1dbe340 ""
+["pdflatex"] 1672349216 "c:/Users/antoi/Documents/git/PSO/ParticleSwarnOptimization/Report/main.tex" "main.pdf" "main" 1672349221
+  "c:/Users/antoi/Documents/git/PSO/ParticleSwarnOptimization/Report/main.tex" 1672349214 10637 f26c459ceba15bfd95c1eb682d4b47cd ""
   "c:/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1649248584 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "c:/texlive/2022/texmf-dist/fonts/map/fontname/texfonts.map" 1649249631 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "c:/texlive/2022/texmf-dist/fonts/tfm/jknappen/ec/tcrm1200.tfm" 1649249195 1536 74b7293ec3713bb7fdca8dd1bd1f469c ""
@@ -34,9 +34,11 @@
   "c:/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmsy6.tfm" 1649248548 1116 933a60c408fc0a863a92debe84b2d294 ""
   "c:/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmsy8.tfm" 1649248548 1120 8b7d695260f3cff42e636090a8002094 ""
   "c:/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmti12.tfm" 1649248548 1484 ed72f8f5cf654cda15ecc8e32bfcbee5 ""
+  "c:/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmtt12.tfm" 1649248548 772 9a936b7f5e2ff0557fce0f62822f0bbf ""
   "c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb" 1649247784 32080 340ef9bf63678554ee606688e7b5339d ""
   "c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb" 1649247784 32001 6aeea3afe875097b1eb0da29acd61e28 ""
   "c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb" 1649247784 36741 0ee9e374ec3e30da87cdfb0ea3575226 ""
+  "c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb" 1649247784 35469 dcf3a5f2fc1862f5952e3ee5eb1d98c4 ""
   "c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb" 1649247784 35752 024fb6c41858982481f6968b5fc26508 ""
   "c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb" 1649247784 32722 d7379af29a190c3f453aba36302ff5a9 ""
   "c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb" 1649247784 32726 39f0f9e62e84beb801509898a605dbd5 ""
@@ -44,6 +46,7 @@
   "c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb" 1649247784 28902 2f5c04fd2884d1878057baa5aad22765 ""
   "c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb" 1649247784 32569 5e5ddc8df908dea60932f3c484a54c0d ""
   "c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb" 1649247784 36118 fad905eba93cff5bce1e185fe980a177 ""
+  "c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb" 1649247784 24252 1e4e051947e12dfb50fee0b7f4e26e3a ""
   "c:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb" 1649248584 136101 b18d10b3436f8cb0cd04046deb340fe7 ""
   "c:/texlive/2022/texmf-dist/tex/context/base/mkii/supp-pdf.mkii" 1649251351 71627 94eb9990bed73c364d7f53f960cc8c5b ""
   "c:/texlive/2022/texmf-dist/tex/generic/atbegshi/atbegshi.sty" 1649247919 24708 5584a51a7101caf7e6bbf1fc27d8f7b1 ""
@@ -110,11 +113,14 @@
   "c:/texlive/2022/texmf-var/web2c/pdftex/pdflatex.fmt" 1649254510 2826462 69316a9a72fef6c0e25b1540493bcaef ""
   "c:/texlive/2022/texmf.cnf" 1649254364 713 e69b156964470283e0530f5060668171 ""
   "figures/PSO.png" 1672237311 289066 7ec069619761ca1ae419b10fbf8102c8 ""
+  "figures/eggholder.png" 1672347147 1511907 dd6a2abac82912e9e11aff027b37bcdf ""
+  "figures/ite0.png" 1672347213 1348418 9ea0dcc37e62881e3541435fb8eeb17c ""
+  "figures/ite1.png" 1672347306 1252432 662ee20d8e5331f14ff752655bb289e6 ""
   "figures/optim_figures.png" 1672230889 709531 19c7125437fcfce99e095bc86ef95b6f ""
-  "main.aux" 1672237914 1639 a3828bf75e936ee6a085079510a5bc5e "pdflatex"
-  "main.bbl" 1672237865 1420 9c8763dc7a5e83fcea87362f534ba037 "bibtex main"
+  "main.aux" 1672349220 2098 20f66dce78e3657d620bc6438d922211 "pdflatex"
+  "main.bbl" 1672349080 1416 59f94a01b7fe5c3c112b1496627b64ee "bibtex main"
   "main.out" 0 -1 0 "pdflatex"
-  "main.tex" 1672237911 7583 46646add763cb7759810e216c1dbe340 ""
+  "main.tex" 1672349214 10637 f26c459ceba15bfd95c1eb682d4b47cd ""
   (generated)
   "main.aux"
   "main.log"
