@@ -1,13 +1,13 @@
 # Fdb version 3
-["bibtex main"] 1672349079 "main.aux" "main.bbl" "main" 1672349221
-  "articles.bib" 1672349078 4050 cbd69475e6f65a0297fdefb2e6fc1307 ""
+["bibtex main"] 1672362655 "main.aux" "main.bbl" "main" 1672362810
+  "articles.bib" 1672351429 4557 412f1a8462578e43cc0eb26e4ed55b12 ""
   "bibstyle.bst.bst" 0 -1 0 ""
-  "main.aux" 1672349220 2098 20f66dce78e3657d620bc6438d922211 "pdflatex"
+  "main.aux" 1672362809 2571 2957aaf51826861b7443ef6bebdd1a3a "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
-["pdflatex"] 1672349216 "c:/Users/antoi/Documents/git/PSO/ParticleSwarnOptimization/Report/main.tex" "main.pdf" "main" 1672349221
-  "c:/Users/antoi/Documents/git/PSO/ParticleSwarnOptimization/Report/main.tex" 1672349214 10637 f26c459ceba15bfd95c1eb682d4b47cd ""
+["pdflatex"] 1672362804 "c:/Users/antoi/Documents/git/PSO/ParticleSwarnOptimization/Report/main.tex" "main.pdf" "main" 1672362810
+  "c:/Users/antoi/Documents/git/PSO/ParticleSwarnOptimization/Report/main.tex" 1672362804 15222 8a50dcddeb4e7798858bce8427f8d8c2 ""
   "c:/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1649248584 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "c:/texlive/2022/texmf-dist/fonts/map/fontname/texfonts.map" 1649249631 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "c:/texlive/2022/texmf-dist/fonts/tfm/jknappen/ec/tcrm1200.tfm" 1649249195 1536 74b7293ec3713bb7fdca8dd1bd1f469c ""
@@ -37,6 +37,7 @@
   "c:/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmtt12.tfm" 1649248548 772 9a936b7f5e2ff0557fce0f62822f0bbf ""
   "c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb" 1649247784 32080 340ef9bf63678554ee606688e7b5339d ""
   "c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb" 1649247784 32001 6aeea3afe875097b1eb0da29acd61e28 ""
+  "c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb" 1649247784 30251 6afa5cb1d0204815a708a080681d4674 ""
   "c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb" 1649247784 36741 0ee9e374ec3e30da87cdfb0ea3575226 ""
   "c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb" 1649247784 35469 dcf3a5f2fc1862f5952e3ee5eb1d98c4 ""
   "c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb" 1649247784 35752 024fb6c41858982481f6968b5fc26508 ""
@@ -45,6 +46,7 @@
   "c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb" 1649247784 24393 3b7eb51a67a0a62aec5849271bdb9c2e ""
   "c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb" 1649247784 28902 2f5c04fd2884d1878057baa5aad22765 ""
   "c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb" 1649247784 32569 5e5ddc8df908dea60932f3c484a54c0d ""
+  "c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb" 1649247784 32626 5abc8bb2f28aa647d4c70f8ea38cc0d3 ""
   "c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb" 1649247784 36118 fad905eba93cff5bce1e185fe980a177 ""
   "c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb" 1649247784 24252 1e4e051947e12dfb50fee0b7f4e26e3a ""
   "c:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb" 1649248584 136101 b18d10b3436f8cb0cd04046deb340fe7 ""
@@ -117,10 +119,11 @@
   "figures/ite0.png" 1672347213 1348418 9ea0dcc37e62881e3541435fb8eeb17c ""
   "figures/ite1.png" 1672347306 1252432 662ee20d8e5331f14ff752655bb289e6 ""
   "figures/optim_figures.png" 1672230889 709531 19c7125437fcfce99e095bc86ef95b6f ""
-  "main.aux" 1672349220 2098 20f66dce78e3657d620bc6438d922211 "pdflatex"
-  "main.bbl" 1672349080 1416 59f94a01b7fe5c3c112b1496627b64ee "bibtex main"
+  "figures/phase-diagram.png" 1672354074 134209 1cf54c5e63ed2d4b5c30f6f85e972bc4 ""
+  "main.aux" 1672362809 2571 2957aaf51826861b7443ef6bebdd1a3a "pdflatex"
+  "main.bbl" 1672362656 1656 3afacc6530f3a45e88e185f1a0ab7d45 "bibtex main"
   "main.out" 0 -1 0 "pdflatex"
-  "main.tex" 1672349214 10637 f26c459ceba15bfd95c1eb682d4b47cd ""
+  "main.tex" 1672362804 15222 8a50dcddeb4e7798858bce8427f8d8c2 ""
   (generated)
   "main.aux"
   "main.log"

@@ -34,4 +34,10 @@
 \newblock Calypso: A method for crystal structure prediction.
 \newblock {\em Computer Physics Communications 183}, 10 (2012), 2063--2070.
 
+\bibitem{https://doi.org/10.1029/JB085iB01p00225}
+{\sc Hubbard, W.~B., and MacFarlane, J.~J.}
+\newblock Structure and evolution of uranus and neptune.
+\newblock {\em Journal of Geophysical Research: Solid Earth 85}, B1 (1980),
+  225--234.
+
 \end{thebibliography}
