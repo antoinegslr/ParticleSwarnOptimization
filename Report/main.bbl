@@ -1,4 +1,4 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
 
 \bibitem{Hansen2021-bk}
 {\sc Hansen, T.~C.}
@@ -11,6 +11,23 @@
   $\mathrm{N}\mathrm{H}_{3}\ifmmode\cdot\else\textperiodcentered\fi{}2\mathrm{H}_{2}\mathrm{O}$
   under high pressure.
 \newblock {\em Phys. Rev. B 95\/} (Apr 2017), 144104.
+
+\bibitem{B003447I}
+{\sc Reinaudi, L., Leiva, E. P.~M., and Carbonio, R.~E.}
+\newblock Simulated annealing prediction of the crystal structure of ternary
+  inorganic compounds using symmetry restrictions.
+\newblock {\em J. Chem. Soc.{,} Dalton Trans.\/} (2000), 4258--4262.
+
+\bibitem{minima_hopping}
+{\sc Amsler, M., and Goedecker, S.}
+\newblock Crystal structure prediction using the minima hopping method.
+\newblock {\em The Journal of Chemical Physics 133}, 22 (2010), 224104.
+
+\bibitem{C2CE06642D}
+{\sc Zhu, Q., Oganov, A.~R., and Lyakhov, A.~O.}
+\newblock Evolutionary metadynamics: a novel method to predict crystal
+  structures.
+\newblock {\em CrystEngComm 14\/} (2012), 3596--3601.
 
 \bibitem{Falls2020}
 {\sc Falls, Z., Avery, P., Wang, X., Hilleke, K.~P., and Zurek, E.}
@@ -39,5 +56,12 @@
 \newblock Structure and evolution of uranus and neptune.
 \newblock {\em Journal of Geophysical Research: Solid Earth 85}, B1 (1980),
   225--234.
+
+\bibitem{doi:10.1021/acs.jpca.5b07854}
+{\sc Bethkenhagen, M., Cebulla, D., Redmer, R., and Hamel, S.}
+\newblock Superionic phases of the 1:1 water–ammonia mixture.
+\newblock {\em The Journal of Physical Chemistry A 119}, 42 (2015),
+  10582--10588.
+\newblock PMID: 26390374.
 
 \end{thebibliography}

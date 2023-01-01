@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.4.6)  30 DEC 2022 02:16
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.4.6)  1 JAN 2023 23:37
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -443,7 +443,7 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 32.
  (c:/texlive/2022/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-<figures/optim_figures.png, id=6, 932.73468pt x 600.74437pt>
+<figures/optim_figures.png, id=10, 932.73468pt x 600.74437pt>
 File: figures/optim_figures.png Graphic file (type png)
 <use figures/optim_figures.png>
 Package pdftex.def Info: figures/optim_figures.png  used on input line 46.
@@ -461,7 +461,7 @@ Overfull \hbox (16.99854pt too wide) detected at line 73
 [][]\OML/cmm/m/it/12 v[] \OT1/cmr/m/n/12 = \OML/cmm/m/it/12 !v[] \OT1/cmr/m/n/12 + \OML/cmm/m/it/12 c[]r[]\OT1/cmr/m/n/12 ([][] \OMS/cmsy/m/n/12 ^^@ \OML/cmm/m/it/12 x[]\OT1/cmr/m/n/12 ) + \OML/cmm/m/it/12 c[]r[]\OT1/cmr/m/n/12 ([][] \OMS/cmsy/m/n/12 ^^@ \OML/cmm/m/it/12 x[]\OT1/cmr/m/n/12 )
  []
 
-<figures/PSO.png, id=32, 996.72375pt x 593.21625pt>
+<figures/PSO.png, id=39, 996.72375pt x 593.21625pt>
 File: figures/PSO.png Graphic file (type png)
 <use figures/PSO.png>
 Package pdftex.def Info: figures/PSO.png  used on input line 78.
@@ -472,12 +472,12 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 See the caption package documentation for explanation.
 
 [2 <./figures/PSO.png>]
-<figures/ite0.png, id=55, 398.80995pt x 263.18324pt>
+<figures/ite0.png, id=62, 398.80995pt x 263.18324pt>
 File: figures/ite0.png Graphic file (type png)
 <use figures/ite0.png>
 Package pdftex.def Info: figures/ite0.png  used on input line 93.
 (pdftex.def)             Requested size: 125.5374pt x 82.84291pt.
-<figures/ite1.png, id=56, 398.80995pt x 263.18324pt>
+<figures/ite1.png, id=63, 398.80995pt x 263.18324pt>
 File: figures/ite1.png Graphic file (type png)
 <use figures/ite1.png>
 Package pdftex.def Info: figures/ite1.png  used on input line 93.
@@ -488,7 +488,7 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 94.
 See the caption package documentation for explanation.
 
-<figures/eggholder.png, id=57, 409.53pt x 263.18324pt>
+<figures/eggholder.png, id=64, 409.53pt x 263.18324pt>
 File: figures/eggholder.png Graphic file (type png)
 <use figures/eggholder.png>
 Package pdftex.def Info: figures/eggholder.png  used on input line 98.
@@ -499,28 +499,28 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 See the caption package documentation for explanation.
 
 [3 <./figures/ite0.png> <./figures/ite1.png> <./figures/eggholder.png>]
-<figures/phase-diagram.png, id=73, 1333.98375pt x 663.22781pt>
+<figures/phase-diagram.png, id=81, 1333.98375pt x 663.22781pt>
 File: figures/phase-diagram.png Graphic file (type png)
 <use figures/phase-diagram.png>
-Package pdftex.def Info: figures/phase-diagram.png  used on input line 111.
-(pdftex.def)             Requested size: 512.14963pt x 254.63004pt.
- (./main.bbl [4 <./figures/phase-diagram.png>]) [5] (./main.aux)
+Package pdftex.def Info: figures/phase-diagram.png  used on input line 114.
+(pdftex.def)             Requested size: 460.93153pt x 229.15791pt.
+ [4 <./figures/phase-diagram.png>] (./main.bbl) [5] (./main.aux)
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 12258 strings out of 478268
- 196345 string characters out of 5850346
- 513458 words of memory out of 5000000
- 30285 multiletter control sequences out of 15000+600000
+ 12266 strings out of 478268
+ 196493 string characters out of 5850346
+ 514608 words of memory out of 5000000
+ 30289 multiletter control sequences out of 15000+600000
  477477 words of font info for 58 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 60i,10n,63p,1347b,518s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 60i,10n,63p,1579b,518s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {c:/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}<c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on main.pdf (5 pages, 4298757 bytes).
+Output written on main.pdf (5 pages, 4304958 bytes).
 PDF statistics:
- 161 PDF objects out of 1000 (max. 8388607)
- 107 compressed objects within 2 object streams
- 27 named destinations out of 1000 (max. 500000)
+ 171 PDF objects out of 1000 (max. 8388607)
+ 117 compressed objects within 2 object streams
+ 31 named destinations out of 1000 (max. 500000)
  31 words of extra memory for PDF output out of 10000 (max. 10000000)
 
