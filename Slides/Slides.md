@@ -1,6 +1,8 @@
 ---
 marp: true
 theme: sorbonne
+math: katex
+paginate: true
 ---
 
 <!-- _class: lead -->
@@ -8,22 +10,13 @@ theme: sorbonne
 
 # Bibliographic project
 ## Generation of optimized structures through Particle Swarn Optimization
-By **Antoine GISSLER** - Sorbonne Université
-2022-2023
+**Antoine GISSLER** - Sorbonne Université
+January 2023
+<div style="font-family:'Avenir'; color:gray; font-size:0.7em; text-align: left;">Repository: <a href="https://github.com/antoinegslr/ParticleSwarnOptimization">https://github.com/antoinegslr/ParticleSwarnOptimization</a></div>
 </div>
 
 ---
-
-# Introduction
-
-![center](figures/bird_flock.jpg)
-
-Peut-être qu'on saura un jour si ça fonctionne
-
----
-
-# Introduction
-<style scoped>
+<style>
 div.twocols {
   margin-top: 35px;
   column-count: 2;
@@ -41,16 +34,38 @@ div.twocols p.break {
   margin-top: 0;
 }
 </style>
+# Introduction
+<div class="twocols">
+<br><br><br>
+<center>
+
+## Novel phases in ammonia-water mixtures under pressure
+<h3 style="color:gray;">Victor Naden Robinson, Miriam Marqués, Yanchao Wang, Yanming Ma, Andreas Hermann</h3>
+<br>
+<h6 style="color:black;">Crystal structure prediction in Saturn and Uranus' mantles</h6>
+</center>
+<p class="break"></p>
+
+<center>
+<img src="figures/Article.png" height=600px style="border:3px solid grey;" />
+
+
+</center>
+</div>
+
+---
+# Introduction
+
 
 <div class="twocols">
 <br><br>
 
-Crystal structure prediction requires **sampling** of multiple structures
-<br>
+Crystal structure prediction requires **sampling** of multiple structures<br>
 **Some existing methods:**
 * Monte Carlo
 * Simulated annealing
 * Minima/basin hopping
+* Metadynamics
 * Genetic algorithm
 
 <p class="break"></p>
@@ -65,6 +80,79 @@ Crystal structure prediction requires **sampling** of multiple structures
 </div>
 
 ---
+# Introduction
+
+<div class="twocols">
+<br>
+
+**Crystals in Saturn and Uranus:**
+* Presence of water ices and ammonia in similar quantities
+* High pressures and temperatures
+
+**Problems using previous methods:**
+* High computational cost
+* High energetic barriers to cross
+* Has everything been sampled?
+* Everything is unknown
+
+<p class="break"></p>
+
+![right height:400px](figures/saturn.jpeg)
+<center>
+
+**Figure 2:** Saturn by Hubble telescope
+([Nasa](https://solarsystem.nasa.gov/resources/2490/saturns-rings-shine-in-hubble-portrait/?category=planets_saturn), September 2019)
+
+</center>
+</div>
+
+---
+# Particle Swarn Optimization (PSO)
+<br>
+
+> Population-based optimization algorithm based on behaviors of birds in a flock
+<div class="twocols" style="margin-top:10px; margin-bottom: -5px;">
+<center>
+
+![right height:275px](figures/bird_flock.jpg)
+**Figure 3:** Bird flock, by ...
+</center>
+<p class="break"></p>
+<center>
+
+![right height:275px](figures/PSO.png)
+**Figure 4:** PSO principle, by ...
+
+
+</center>
+</div>
+
+$$v_{i,j}^{t+1}=\omega v_{i,j}^t+c_1r_1(\verb+pbest+_{i,j}^t-x_{i,j}^t)+c_2r_2(\verb+gbest+_{i,j}^t-x_{i,j}^t)$$
+---
+# How does it work?
+- Generation of one random structure per symmetry
+- Local optimization of every structure
+- Exclusion of similar structures *(through bond characterization matrix)*
+- Generation of new structures by PSO, using personal and flock's hystories (global best minimum $\verb+gbest+$ and personnal best minimum $\verb+pbest+$)
+- Repetition of the three last steps until convergence (difference between two consecutive minimal values less than a defined epsilon)
+> The program then returns the configuration associated to the lowest energy
+
+---
+# PSO for crystal structure prediction
+
+## Results from previous studies
+Bref voilà dire que y'avait des trucs, avec trois phases et tout
+
+---
+# PSO for crystal structure prediction
+
+Et là paf dire ô combien cette méthode est magique pour les trois phases : découverte de nouvelles phases avec peu d'itérations
+
+---
+# PSO for crystal structure prediction
+
+---
+
 # Slide 1: Introduction
 
 Definition: Particle Swarm Optimization (PSO) is a population-based optimization algorithm that simulates the social behavior of birds or insects, such as flocking or swarming.
