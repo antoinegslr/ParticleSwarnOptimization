@@ -1,7 +1,6 @@
 ---
 marp: true
 theme: sorbonne
-class: invert
 ---
 
 <!-- _class: lead -->
@@ -14,14 +13,56 @@ By **Antoine GISSLER** - Sorbonne Université
 </div>
 
 ---
+
 # Introduction
 
-<table>
-    <tr>
-    <th width=50%><img src="figures/bird_flock.jpg" width=100%/></th>
-    <th>s</th>
-    </tr>
-</table>
+![center](figures/bird_flock.jpg)
+
+Peut-être qu'on saura un jour si ça fonctionne
+
+---
+
+# Introduction
+<style scoped>
+div.twocols {
+  margin-top: 35px;
+  column-count: 2;
+}
+div.twocols p:first-child,
+div.twocols h1:first-child,
+div.twocols h2:first-child,
+div.twocols ul:first-child,
+div.twocols ul li:first-child,
+div.twocols ul li p:first-child {
+  margin-top: 0 !important;
+}
+div.twocols p.break {
+  break-before: column;
+  margin-top: 0;
+}
+</style>
+
+<div class="twocols">
+<br><br>
+
+Crystal structure prediction requires **sampling** of multiple structures
+<br>
+**Some existing methods:**
+* Monte Carlo
+* Simulated annealing
+* Minima/basin hopping
+* Genetic algorithm
+
+<p class="break"></p>
+
+![right height:450px](figures/egg_holder.png)
+<center>
+
+**Figure 1:** Eggholder function
+(Nathan Rooy on [GitHub](https://github.com/nathanrooy/landscapes))
+
+</center>
+</div>
 
 ---
 # Slide 1: Introduction
