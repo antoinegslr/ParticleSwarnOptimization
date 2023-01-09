@@ -23,37 +23,45 @@
 
 \begin{document}
 \noindent\huge\textbf{\textsf{Generation of optimized structures using Particle Swarn Optimization (PSO)}}\normalsize\vspace{1em}\\
-\large \textsf{Antoine GISSLER -- Sorbonne Université\\January 2023}
+\large \textsf{Antoine GISSLER -- Sorbonne Université\\January 2023}\vspace{0.5em}\\
+\begin{tabular}{p{18cm}}
+    \hline
+    \vspace{-0.25em}\begin{minipage}{\textwidth}
+        \small\textbf{Abstract:} This bibliographic report focuses on the article "Novel phases in ammonia-water mixtures under pressure" published by \textsc{Naden Robinson} et al., which used Particle Swarn Optimization for the determination of the phase diagram of ammonia-water mixtures for high pressures and temperatures.\normalsize
+    \end{minipage}\vspace{0.5em}
+    \\
+    \hline
+\end{tabular}
 \begin{multicols}{2}
 \section*{Introduction}
 
-For as long as both theoretical and technological progress entitled scientists to do, there has been a wide interest to understand the nanoscopic scale of matter. Indeed, doing so makes it possible to understand the processes of transition and their results when matter is subject to changing conditions, such as pressure or temperature. It has been observed that applying new conditions could alter various variables in matter: in the case of water ices for instance, the symmetry and the number of H-bonds that are possible can be altered by the variation of pressure. Moreover, these changes can lead to variation of properties of materials, which could lead to serious issues in fields where they have expected to withstand critical infrastructure (aeronautics, nuclear powerplants, etc...). Yet, a full understanding of every material is hard to achieve: even for very common elements such as water, there is still today space for discussion over some of its solid phases \cite{Hansen2021-bk}.
+The nanoscopic scale of matter makes it possible to understand the phases of matter and its transitions when subject to changing conditions, such as pressure or temperature. Indeed, different experimental conditions can lead to different states: in the case of water ices for instance, the symmetry and the number of H-bonds that are possible can be altered by the variation of pressure. Moreover, these changes can lead to variation of properties of materials, which could lead to serious issues in fields where they have expected to withstand critical infrastructure (aeronautics, nuclear powerplants, etc...). Yet, a full understanding of every material is hard to achieve: even for very common elements such as water, there is still today space for discussion over some of its solid phases \cite{Hansen2021-bk}.
 
-Up to recently, crystalline structure for materials was obtained (or at least helped by it) through experimental studies: X-Ray diffraction (XRD) being almost the norm in order to characterize anything in Material Science. However, this implies that the crystallized experimental structure shall be accessible, which requires consequent setups in the case of extreme conditions being studied. In the case of a complete theoretical study through numerical calculations, it implies to find the global minimum of the potential energy surface of the molecule, which depends of many parameters (for a molecule containing $N$ atoms, it can go up to $3N-3$ degrees of freedom, including bond length, angles of rotation and torsion). Yet, as simple as the concept may seem, it hides a very complex truth: finding the global minimum of a ensemble containing many parameters, is not an easy task at all. Without any hint on initial configurations to begin optimization with, simulations can get stuck in local minima. Moreover, finding this minimum in the case of a crystalline phase is also conditionned to the right selection for the symmetry of the crystal: yet again increasing the complexity.\vspace{1em}
+Up to recently, crystalline structure for materials was obtained through experimental studies: X-Ray diffraction (XRD) being almost the norm in order to characterize anything in Material Science. However, this implies that the crystallized experimental structure shall be accessible, which requires consequent setups in the case of extreme conditions being studied. In the case of a complete theoretical study through numerical calculations, it implies to find the global minimum of the potential energy surface of the molecule, which depends on many parameters (for a molecule containing $N$ atoms, it can go up to $3N-3$ degrees of freedom, including bond length, angles of rotation and torsion). Yet, as simple as the concept may seem, it hides a very complex truth: finding the global minimum of a ensemble containing many parameters, is not an easy task at all. Without any hint on initial configurations to begin optimization with, simulations can get stuck in local minima. Moreover, finding this minimum in the case of a crystalline phase is also conditionned to the right selection for the symmetry of the crystal: yet again increasing the complexity.\vspace{1em}
 
 \noindent The quest for finding global minima in the case of molecular systems has been done through various approaches (a visual presentation is available in Figure 1):
 \begin{itemize}
     \itemsep0em
-    \item \textbf{Monte Carlo:} involves random changes on parameters and accept the modification using probabilistic techniques \cite{PhysRevB.95.144104}
-    \item \textbf{Simulated annealing:} the temperature of the system is increased (so that every configuration is accessible), and then slowly decreased for the system to converge to global minimum in a Monte-Carlo fashion \cite{B003447I}
-    \item \textbf{Minima hopping:} perturbates the configuration at local minimum to explore nearbies ; if new configuration has lower energy, configuration is updated ; if not the perturbation module is increased \cite{minima_hopping}
-    \item \textbf{Basin hopping:} similar to minima hopping, but focuses rather on the basins of potential energy
-    \item \textbf{Metadynamics:} enhances the sampling of rare events, and thus permits a quasi-total sampling of the potential energy surface (PES) ; in this case the global minimum can be easily found \cite{C2CE06642D}
-    \item \textbf{Genetic algorithm:} inspired by the principles of evolution of living species, theses algorithm induce selection, mutation, and recombination to optimized configurations \cite{Falls2020}
-\end{itemize}
+    \item[\textbf{(a)}] \textbf{Monte Carlo:} \small involves random changes on parameters and accept the modification using probabilistic techniques \cite{PhysRevB.95.144104}\normalsize
+    \item[\textbf{(b)}] \textbf{Simulated annealing:} \small the temperature of the system is increased (so that every configuration is accessible), and then slowly decreased for the system to converge to global minimum in a Monte-Carlo fashion \cite{B003447I}\normalsize
+    \item[\textbf{(c)}] \textbf{Minima hopping:} \small perturbates the configuration at local minimum to explore nearbies ; if a new configuration has lower energy, the configuration is updated ; if not the perturbation module is increased \cite{minima_hopping}\normalsize
+    \item[\textbf{(c')}] \textbf{Basin hopping:} \small similar to minima hopping, but focuses rather on the basins of potential energy\normalsize
+    \item[\textbf{(d)}] \textbf{Metadynamics:} \small enhances the sampling of rare events, and thus permits a quasi-total sampling of the potential energy surface (PES) ; in this case the global minimum can be easily found \cite{C2CE06642D}\normalsize
+    \item[\textbf{(f)}] \textbf{Genetic algorithm:} \small inspired by the principles of evolution of living species, theses algorithm induce selection, mutation, and recombination to optimized configurations \cite{Falls2020}\normalsize
+\end{itemize}\normalsize
 \bigskip
 
               \noindent \includegraphics[width=\columnwidth]{figures/optim_figures.png}
                 \captionof{figure}{Schematic explanation of various crystal structure prediction methods, by Falls et al. \cite{Falls2020}}\medskip
+\newpage
+\normalsize Each method has its own advantages and inconvenients, and has been probed for the generation of configurations. Thus, there is still no consensus for a specific method, as techniques can be better in some cases. \vspace{1em}
 
-Each method has its own advantages and inconvenients, and has been probed for the generation of configurations. Thus, there is still no consensus for a specific method, as techniques can be better in some cases. \vspace{1em}
-
-This report, based on the publication from Naden Robinson et al. \cite{original}, tackles the application of another generalized optimization algorithm (Particle Swarn Optimization) for the purposes of potential energy surfaces exploration and the determination of the optimized geometry for extreme conditions. The study is based on the exploration of ammonia-water mixtures present inside planets of our solar system (especially Uranus and Neptune). In these mantles, there exists some particularly harsh conditions, that are not existing in our planet: indeed, high temperatures and pressure can be reached; thus accessing zones of the phase diagram of this mixture that were never explored previously. Furthermore, it is almost impossible in this case to use experiments in the first place to have first guesses, and as we have no clue about any stoichiometry, symmetry or parameters, sampling the entire potential energy surface would be very computationally expensive. Those reasons also exclude many of the above methods, that would require an initial configuration, and/or a clear final destination. As a matter of consequence, using a smart optimization technique is, of course, of high importance.
+This report, based on the publication from Naden Robinson et al. \cite{original}, tackles the application of another generalized optimization algorithm (Particle Swarn Optimization) for the purposes of potential energy surfaces exploration and the determination of the optimized geometry for extreme conditions. The study is based on the exploration of ammonia-water mixtures present inside planets of our solar system (especially Uranus and Neptune). In these mantles, there exist some particularly harsh conditions, that are not existing in our planet: indeed, high temperatures and pressure can be reached; thus accessing zones of the phase diagram of this mixture that were never explored (theoretically nor experimentally) previously: making it impossible to have first guesses or initial configurations, which are necessary with conventional optimization techniques. As a matter of consequence, using a smart optimization technique is, of course, of high importance.
 
 \section*{Particle Swarn Optimization}
 \subsection*{Theoretical background}
 Particle Swarm Optimization (also called PSO) is a population-based optimization algorithm that simulates the social behavior of birds or insects, such as flocking or swarming. Every iteration, one optimization simulation's (called a particle) trajectory is inspired by its own personal local minimum (\verb+pbest+) that it can reach through gradient descent, and the global (on all particle) minimum (\verb+gbest+). Its application for structure discovery was introduced by Wang et al. \cite{PhysRevB.82.094116}, and transcribed into a software (called \textsc{calypso}) by the same authors \cite{WANG20122063}. The particle swarn optimization presents a simple algorithm:
-\begin{itemize}
+\begin{enumerate}
 \itemsep0em
     \item Generation of one random structure per symmetry (avoids unnecessary calculations)
     \item Local optimization of every structure
@@ -61,7 +69,7 @@ Particle Swarm Optimization (also called PSO) is a population-based optimization
     \item Generation of new structures by PSO, using personal and flock's histories (see below)
     \item Repeating steps 2, 3 and 4 until convergence is reached
     \item Returns the configuration with the lowest energy
-\end{itemize}
+\end{enumerate}
 The calculation of new structures by PSO formulas is carried out for each parameter individually.
 For the $i^\text{th}$ particle, we have the following equation for the calculation of the updated coordinates for dimension $j$:
 \begin{equation}
@@ -81,7 +89,7 @@ The advantage of such method is thus clearly visible: by taking into account sam
 
 Authors announce very interesting results in both their introduction article and the presentation of \textsc{calypso} \cite{PhysRevB.82.094116,WANG20122063}: starting from scratch, and using either DFT or empirical potentials (using the GULP code), it was possible to obtain optimized structures with less than 10 PSO generations (representing around 300 structures).
 \subsection*{Programming PSO, trial over a simple two-dimensional study case}
-The code that has been developped following the above instructions, is available on Github (\href{https://github.com/antoinegslr/ParticleSwarnOptimization}{link here}). The algorithm was applied on a similar case study (yet with a lower dimensionality for the sake of simplicity): the Eggholder trial function.
+PSO was reproduced on Python using the equations that were stated previously, in order to understand more its principle. The code that has been developped following the above instructions, is available on Github (\href{https://github.com/antoinegslr/ParticleSwarnOptimization}{link here}). The algorithm was applied on a similar case study (yet with a lower dimensionality for the sake of simplicity): the Eggholder trial function.
 \begin{multline*}
     f(x,y)=-(y+47)\sin\left(\sqrt{\left|\frac{x}{2}+(y+47)\right|}\right)\\-x\sin\left(\sqrt{\left|\frac{x}{2}-(y+47)\right|}\right)
 \end{multline*}
@@ -102,7 +110,7 @@ In this example, the global best minimum managed to move from a basin to another
 Indeed, this method surely seems very advantageous to others when facing unknown crystal phases determination: in the considered planets (Uranus and Neptune), layers of the inner mantle are mainly composed of methane, ammonium and ice water, and are subject to pressure going from 0.1 to 2.5 Mbar \cite{https://doi.org/10.1029/JB085iB01p00225}. It is predicted that the presence of both elements is almost equivalent, letting their stoichiometry unknown (it could be 1:1, or one element could be more used than another). However, as ammonia and water can form hydrogen-bonded networks when they are brought closer in some circumstances, it is possible to see the formation of new phases, lowered in energy. It is thus expected that the evolution of pressure might let new phases appear at high pressure. Experimental studies were conducted at a few hundreds of GPa previously, and already gave some hints about the rearrangements in place, but \\
 In this case, only mixtures of ammonia and water were studied, and multiple stoichiometric factors were tested, which are all supposedly possible to be observed in those planet's layers. At first, 16 formula units of $( \mathrm{H}_2\mathrm{O})_{X}(\mathrm{N}\mathrm{H}_3)_{Y}$ were tried, however it was soon reduced to only four stable mixtures: ammonia monohydrate (AMH), ammonia dihydrate (ADH), ammonia hemihydrate (AHH), and ammonia quarterhydrate (AQH). The three first configurations are present on our planet at low pressures, making them easy options to consider for stable configurations. However, the last mixture turned out to present some stable crystalline phases at high pressures.\vspace{1em}
 
-Particle Swarn Optimization that was lead on the already-known ammonia hydrates still allowed to make some new discoveries: some phases that were not present in some previously determined phase diagram are actually valid candidates for some pressures: it is the case, for instance, for AMH, with both $P4_3$ and $P2_1/m$ structures that did not appear in the litterature: using PSO in those high-pressure phase evolution studies thus allowed to discover a better stability of the crystal, before changing to the ionic phase $(\mathrm{OH}^-)(\mathrm{NH}_4^+)$. In previous studies, such as the one conducted by Bethkenhagen and others which was using XtalOpt, based on genetic evolution algorithm \cite{doi:10.1021/acs.jpca.5b07854}, came first to the conclusion with their results that all phases of AMH would be decomposed into ionic phases below 120 GPa. Thus, this shows that the latter method is less accurate that PSO, as it can be expected that mutations never make it possible to sample a part of the PES. A richer phase diagram was also found for ADH, with phases being stable up to around 100 GPa. These new phases are expected due to the facilitated proton transfer that can occur in the system with the high pressure (in all mixtures): the energy of the system decreases, makes it possible to consider these phases. With usual sampling techniques, finding such phases would be a lot harder, and would require the scientist to know what to look for.\vspace{1em}
+Particle Swarn Optimization that applied on the already-known ammonia hydrates still allowed to make some new discoveries: some phases that were not present in some previously determined phase diagram are actually valid candidates for some pressures: it is the case, for instance, for AMH, with both $P4_3$ and $P2_1/m$ structures that did not appear in the litterature: using PSO in those high-pressure phase evolution studies thus allowed to discover a better stability of the crystal, before changing to the ionic phase $(\mathrm{OH}^-)(\mathrm{NH}_4^+)$. In previous studies, such as the one conducted by Bethkenhagen and others which was using XtalOpt, based on genetic evolution algorithm \cite{doi:10.1021/acs.jpca.5b07854}, came first to the conclusion with their results that all phases of AMH would be decomposed into ionic phases below 120 GPa. Thus, this shows that the latter method is less accurate that PSO, as it can be expected that mutations never make it possible to sample a part of the PES. A richer phase diagram was also found for ADH, with phases being stable up to around 100 GPa. These new phases are expected due to the facilitated proton transfer that can occur in the system with the high pressure (in all mixtures): the energy of the system decreases, makes it possible to consider these phases. With usual sampling techniques, finding such phases would be a lot harder, and would require the scientist to know what to look for.\vspace{1em}
 
 Moreover, using PSO also made it possible to discover the stability of another ammonia-water mixture: ammonia quarterhydrate (AQH). This phases begins to exist at already high pressures (starting from 8.5 GPa), and decomposes back into ices again around 300 GPa.\vspace{1em}
 
@@ -118,8 +126,9 @@ In the end, it was also shown that no stoichiometry other than AMH, ADH, AHH or 
 
 \section*{Conclusion}
 The sampling of various binary ammonia-water mixtures using Particle Swarn Optimization, Naden Robinson et al. managed to discover new phases, extending the domain of stability that was initially found in previous researches. As a matter of consequence, this sampling technique has showed its advantages, as being more rigorous than others, and permitting an efficient sampling (less time is spent in the upper part of the hills of the PES). Yet, it is still important to note that in the case of the presence of experimental data allowing to get a good start for theoretical studies (such as XRD does) ; this method might not be the most efficient. There is no gold standard, each person has to get the best compromise for their studies.
-\end{multicols}
+
 \bibliographystyle{bibstyle.bst}
-\bibliography{articles}
+\small\bibliography{articles}\normalsize
+\end{multicols}
 
 \end{document}

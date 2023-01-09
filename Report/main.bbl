@@ -3,17 +3,17 @@
 \bibitem{Hansen2021-bk}
 {\sc Hansen, T.~C.}
 \newblock The everlasting hunt for new ice phases.
-\newblock {\em Nat. Commun. 12}, 1 (May 2021), 3161.
+\newblock {\em Nat. Commun. 12\/} (2021), 3161.
 
 \bibitem{PhysRevB.95.144104}
 {\sc Jiang, X., Wu, X., Zheng, Z., Huang, Y., and Zhao, J.}
 \newblock Ionic and superionic phases in ammonia dihydrate
   $\mathrm{N}\mathrm{H}_{3}\ifmmode\cdot\else\textperiodcentered\fi{}2\mathrm{H}_{2}\mathrm{O}$
   under high pressure.
-\newblock {\em Phys. Rev. B 95\/} (Apr 2017), 144104.
+\newblock {\em Phys. Rev. B 95\/} (2017), 144104.
 
 \bibitem{B003447I}
-{\sc Reinaudi, L., Leiva, E. P.~M., and Carbonio, R.~E.}
+{\sc Reinaudi, L., Leiva, E., and Carbonio, R.}
 \newblock Simulated annealing prediction of the crystal structure of ternary
   inorganic compounds using symmetry restrictions.
 \newblock {\em J. Chem. Soc.{,} Dalton Trans.\/} (2000), 4258--4262.
@@ -21,7 +21,7 @@
 \bibitem{minima_hopping}
 {\sc Amsler, M., and Goedecker, S.}
 \newblock Crystal structure prediction using the minima hopping method.
-\newblock {\em The Journal of Chemical Physics 133}, 22 (2010), 224104.
+\newblock {\em J. Chem. Phys. 133\/} (2010), 224104.
 
 \bibitem{C2CE06642D}
 {\sc Zhu, Q., Oganov, A.~R., and Lyakhov, A.~O.}
@@ -33,35 +33,32 @@
 {\sc Falls, Z., Avery, P., Wang, X., Hilleke, K.~P., and Zurek, E.}
 \newblock The {XtalOpt} evolutionary algorithm for crystal structure
   prediction.
-\newblock {\em The Journal of Physical Chemistry C 125}, 3 (Dec. 2020),
-  1601--1620.
+\newblock {\em J. Phys. Chem. C 125\/} (2020), 1601--1620.
 
 \bibitem{original}
 {\sc Naden~Robinson, V., Marqués, M., Wang, Y., Ma, Y., and Hermann, A.}
 \newblock Novel phases in ammonia-water mixtures under pressure.
-\newblock {\em The Journal of Chemical Physics 149}, 23 (2018), 234501.
+\newblock {\em J. Chem. Phys. 149\/} (2018), 234501.
 
 \bibitem{PhysRevB.82.094116}
 {\sc Wang, Y., Lv, J., Zhu, L., and Ma, Y.}
 \newblock Crystal structure prediction via particle-swarm optimization.
-\newblock {\em Phys. Rev. B 82\/} (Sep 2010), 094116.
+\newblock {\em Phys. Rev. B 82\/} (2010), 094116.
 
 \bibitem{WANG20122063}
 {\sc Wang, Y., Lv, J., Zhu, L., and Ma, Y.}
 \newblock Calypso: A method for crystal structure prediction.
-\newblock {\em Computer Physics Communications 183}, 10 (2012), 2063--2070.
+\newblock {\em Comput. Phys. Commun. 183\/} (2012), 2063--2070.
 
 \bibitem{https://doi.org/10.1029/JB085iB01p00225}
 {\sc Hubbard, W.~B., and MacFarlane, J.~J.}
 \newblock Structure and evolution of uranus and neptune.
-\newblock {\em Journal of Geophysical Research: Solid Earth 85}, B1 (1980),
-  225--234.
+\newblock {\em J. Geophys. Res. Solid Earth 85\/} (1980), 225--234.
 
 \bibitem{doi:10.1021/acs.jpca.5b07854}
 {\sc Bethkenhagen, M., Cebulla, D., Redmer, R., and Hamel, S.}
 \newblock Superionic phases of the 1:1 water–ammonia mixture.
-\newblock {\em The Journal of Physical Chemistry A 119}, 42 (2015),
-  10582--10588.
+\newblock {\em J. Phys. Chem. A 119\/} (2015), 10582--10588.
 \newblock PMID: 26390374.
 
 \end{thebibliography}

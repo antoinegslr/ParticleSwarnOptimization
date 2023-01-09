@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.4.6)  2 JAN 2023 14:11
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.4.6)  9 JAN 2023 09:59
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -430,97 +430,100 @@ LaTeX Info: Redefining \nameref on input line 24.
 \@outlinefile=\write3
 \openout3 = `main.out'.
 
-
-Overfull \hbox (3.32289pt too wide) in paragraph at lines 25--28
-\OT1/cmss/bx/n/20.74 Generation of op-ti-mized struc-tures us-ing Par-ti-cle Swarn
- []
-
-LaTeX Font Info:    Trying to load font information for U+msa on input line 32.
-(c:/texlive/2022/texmf-dist/tex/latex/amsfonts/umsa.fd
+LaTeX Font Info:    Trying to load font information for U+msa on input line 27.
+ (c:/texlive/2022/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 32.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 27.
  (c:/texlive/2022/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
+Overfull \hbox (3.32289pt too wide) in paragraph at lines 25--36
+\OT1/cmss/bx/n/20.74 Generation of op-ti-mized struc-tures us-ing Par-ti-cle Swarn
+ []
+
+
+Overfull \hbox (11.99997pt too wide) in paragraph at lines 25--36
+[] 
+ []
+
 <figures/optim_figures.png, id=10, 932.73468pt x 600.74437pt>
 File: figures/optim_figures.png Graphic file (type png)
 <use figures/optim_figures.png>
-Package pdftex.def Info: figures/optim_figures.png  used on input line 46.
+Package pdftex.def Info: figures/optim_figures.png  used on input line 54.
 (pdftex.def)             Requested size: 251.07481pt x 161.70815pt.
 
-
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 47.
+(caption)                particular \caption on input line 55.
 See the caption package documentation for explanation.
 
 [1
 
 {c:/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./figures/optim_figures.png>]
-Overfull \hbox (16.99854pt too wide) detected at line 73
-[][]\OML/cmm/m/it/12 v[] \OT1/cmr/m/n/12 = \OML/cmm/m/it/12 !v[] \OT1/cmr/m/n/12 + \OML/cmm/m/it/12 c[]r[]\OT1/cmr/m/n/12 ([][] \OMS/cmsy/m/n/12 ^^@ \OML/cmm/m/it/12 x[]\OT1/cmr/m/n/12 ) + \OML/cmm/m/it/12 c[]r[]\OT1/cmr/m/n/12 ([][] \OMS/cmsy/m/n/12 ^^@ \OML/cmm/m/it/12 x[]\OT1/cmr/m/n/12 )
+Overfull \hbox (3.9028pt too wide) detected at line 81
+[][]\OML/cmm/m/it/10.95 v[] \OT1/cmr/m/n/10.95 = \OML/cmm/m/it/10.95 !v[] \OT1/cmr/m/n/10.95 + \OML/cmm/m/it/10.95 c[]r[]\OT1/cmr/m/n/10.95 ([][] \OMS/cmsy/m/n/10.95 ^^@ \OML/cmm/m/it/10.95 x[]\OT1/cmr/m/n/10.95 ) + \OML/cmm/m/it/10.95 c[]r[]\OT1/cmr/m/n/10.95 ([][] \OMS/cmsy/m/n/10.95 ^^@ \OML/cmm/m/it/10.95 x[]\OT1/cmr/m/n/10.95 )
  []
 
-<figures/PSO.png, id=39, 996.72375pt x 593.21625pt>
+<figures/PSO.png, id=40, 996.72375pt x 593.21625pt>
 File: figures/PSO.png Graphic file (type png)
 <use figures/PSO.png>
-Package pdftex.def Info: figures/PSO.png  used on input line 78.
+Package pdftex.def Info: figures/PSO.png  used on input line 86.
 (pdftex.def)             Requested size: 251.07481pt x 149.4261pt.
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 79.
+(caption)                particular \caption on input line 87.
 See the caption package documentation for explanation.
 
 [2 <./figures/PSO.png>]
-<figures/ite0.png, id=62, 398.80995pt x 263.18324pt>
+<figures/ite0.png, id=69, 398.80995pt x 263.18324pt>
 File: figures/ite0.png Graphic file (type png)
 <use figures/ite0.png>
-Package pdftex.def Info: figures/ite0.png  used on input line 93.
+Package pdftex.def Info: figures/ite0.png  used on input line 101.
 (pdftex.def)             Requested size: 125.5374pt x 82.84291pt.
-<figures/ite1.png, id=63, 398.80995pt x 263.18324pt>
+<figures/ite1.png, id=70, 398.80995pt x 263.18324pt>
 File: figures/ite1.png Graphic file (type png)
 <use figures/ite1.png>
-Package pdftex.def Info: figures/ite1.png  used on input line 93.
+Package pdftex.def Info: figures/ite1.png  used on input line 101.
 (pdftex.def)             Requested size: 125.5374pt x 82.84291pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 94.
+(caption)                particular \caption on input line 102.
 See the caption package documentation for explanation.
 
-<figures/eggholder.png, id=64, 409.53pt x 263.18324pt>
+<figures/eggholder.png, id=71, 409.53pt x 263.18324pt>
 File: figures/eggholder.png Graphic file (type png)
 <use figures/eggholder.png>
-Package pdftex.def Info: figures/eggholder.png  used on input line 98.
+Package pdftex.def Info: figures/eggholder.png  used on input line 106.
 (pdftex.def)             Requested size: 251.07481pt x 161.35675pt.
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 98.
+(caption)                particular \caption on input line 106.
 See the caption package documentation for explanation.
 
 [3 <./figures/ite0.png> <./figures/ite1.png> <./figures/eggholder.png>]
-<figures/phase-diagram.png, id=81, 1333.98375pt x 663.22781pt>
+<figures/phase-diagram.png, id=87, 1333.98375pt x 663.22781pt>
 File: figures/phase-diagram.png Graphic file (type png)
 <use figures/phase-diagram.png>
-Package pdftex.def Info: figures/phase-diagram.png  used on input line 114.
+Package pdftex.def Info: figures/phase-diagram.png  used on input line 122.
 (pdftex.def)             Requested size: 460.93153pt x 229.15791pt.
  [4 <./figures/phase-diagram.png>] (./main.bbl) [5] (./main.aux)
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 12266 strings out of 478268
- 196493 string characters out of 5850346
+ 12288 strings out of 478268
+ 196743 string characters out of 5850346
  514608 words of memory out of 5000000
- 30289 multiletter control sequences out of 15000+600000
- 477477 words of font info for 58 fonts, out of 8000000 for 9000
+ 30303 multiletter control sequences out of 15000+600000
+ 481002 words of font info for 73 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 60i,10n,63p,1579b,518s stack positions out of 10000i,1000n,20000p,200000b,200000s
-{c:/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}<c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on main.pdf (5 pages, 4304988 bytes).
+ 60i,11n,63p,1578b,552s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on main.pdf (5 pages, 4336982 bytes).
 PDF statistics:
- 171 PDF objects out of 1000 (max. 8388607)
- 117 compressed objects within 2 object streams
- 31 named destinations out of 1000 (max. 500000)
+ 188 PDF objects out of 1000 (max. 8388607)
+ 130 compressed objects within 2 object streams
+ 37 named destinations out of 1000 (max. 500000)
  31 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -150,6 +150,7 @@ Et là paf dire ô combien cette méthode est magique pour les trois phases : d�
 
 ---
 # PSO for crystal structure prediction
+Là on peut dire que y'a même une nouvelle phase qui a été découverte !
 
 ---
 
