@@ -9,10 +9,10 @@ paginate: true
 <div class="lead-content">
 
 # Bibliographic project
-## Generation of optimized structures through Particle Swarn Optimization
+## Generation of optimized structures through Particle Swarm Optimization
 **Antoine GISSLER** - Sorbonne Université
 January 2023
-<div style="font-family:'Avenir'; color:gray; font-size:0.7em; text-align: left;">Repository: <a href="https://github.com/antoinegslr/ParticleSwarnOptimization">https://github.com/antoinegslr/ParticleSwarnOptimization</a></div>
+<div style="font-family:'Avenir', 'Avenir Next','Calibri'; color:gray; font-size:0.7em; text-align: left;">Repository: <a href="https://github.com/antoinegslr/ParticleSwarmOptimization">https://github.com/antoinegslr/ParticleSwarmOptimization</a></div>
 </div>
 
 ---
@@ -107,7 +107,8 @@ Crystal structure prediction requires **sampling** of multiple structures<br>
 </div>
 
 ---
-# Particle Swarn Optimization (PSO)
+<!-- footer: Wang et al., Crystal structure prediction via particle-swarm optimization. *Phys. Rev. B 82* (2010), 094116 -->
+# Particle Swarm Optimization (PSO)
 <br>
 
 > Population-based optimization algorithm based on behaviors of birds in a flock
@@ -115,13 +116,13 @@ Crystal structure prediction requires **sampling** of multiple structures<br>
 <center>
 
 ![right height:275px](figures/bird_flock.jpg)
-**Figure 3:** Bird flock, by ...
+**Figure 3:** Bird flock, by P. D. van de Velde
 </center>
 <p class="break"></p>
 <center>
 
 ![right height:275px](figures/PSO.png)
-**Figure 4:** PSO principle, by ...
+**Figure 4:** PSO principle, by Wang et al.
 
 
 </center>
@@ -129,65 +130,104 @@ Crystal structure prediction requires **sampling** of multiple structures<br>
 
 $$v_{i,j}^{t+1}=\omega v_{i,j}^t+c_1r_1(\verb+pbest+_{i,j}^t-x_{i,j}^t)+c_2r_2(\verb+gbest+_{i,j}^t-x_{i,j}^t)$$
 ---
+<!-- footer: ""-->
 # How does it work?
-- Generation of one random structure per symmetry
-- Local optimization of every structure
-- Exclusion of similar structures *(through bond characterization matrix)*
-- Generation of new structures by PSO, using personal and flock's hystories (global best minimum $\verb+gbest+$ and personnal best minimum $\verb+pbest+$)
-- Repetition of the three last steps until convergence (difference between two consecutive minimal values less than a defined epsilon)
+1. Generation of one random structure per symmetry
+2. Local optimization of every structure
+3. Exclusion of similar structures *(through bond characterization matrix)*
+4. Generation of new structures by PSO, using personal and flock's hystories (global best minimum $\verb+gbest+$ and personnal best minimum $\verb+pbest+$)
+5. Repetition of the three last steps until convergence (difference between two consecutive minimal values less than a defined epsilon)
 > The program then returns the configuration associated to the lowest energy
 
 ---
+
+# Trial over a basic 2D function
+
+<div class="twocols" style="margin-top:10px; margin-bottom: -5px;">
+<center>
+
+![right height:400px](figures/PSO1.gif)
+**Figure 5:** Global minimum over time
+</center>
+<p class="break"></p>
+<center>
+
+![right height:400px](figures/PSO2.gif)
+**Figure 6:** Evolution of particles over time
+
+
+</center>
+</div>
+
+---
+<!--footer: Bethkenhagen et al., Superionic phases of the 1:1 water-ammonia mixture. *J. Phys. Chem. A 119* (2015), 10582-10588 -->
 # PSO for crystal structure prediction
+<br><br>
+
+<div class="twocols" style="margin-top:10px; margin-bottom: -5px;">
 
 ## Results from previous studies
-Bref voilà dire que y'avait des trucs, avec trois phases et tout
+Three stable mixtures were found
+* **AMH**  $\small\longrightarrow( \mathrm{H}_2\mathrm{O})(\mathrm{N}\mathrm{H}_3)$
+* **ADH** $\small\longrightarrow( \mathrm{H}_2\mathrm{O})_2(\mathrm{N}\mathrm{H}_3)$
+* **AHH** $\small\longrightarrow( \mathrm{H}_2\mathrm{O})(\mathrm{N}\mathrm{H}_3)_2$
+
+For each mixture, **various phases** depending on pressure (see Figure)
+<center>
+
+$\small P4/nmm \overset{38.3}{\rightarrow} Ima2 \overset{149}{\rightarrow} Pma2 \overset{527}{\rightarrow} Pm$
+
+</center>
+<p class="break"></p>
+<center>
+
+![right height:375px](figures/Bethkenhagen.png)
+**Figure 7:** Phase diagram determined by Bethkenhagen et al. (using genetic algorithm)
+
+
+</center>
+</div>
+
+
+---
+<!--footer: Naden Robinson et al., Novel phases in ammonia-water mixtures under pressure. *J. Chem. Phys. 149* (2018), 234501-->
+# PSO for crystal structure prediction
+<br><br>
+
+> Using PSO, authors were able to show that new stuctures might be more stable
+
+
+<center><img src="figures/PD_AMH.png" width=58% />
+
+**Figure 7:** Relative enthalpies of AMH structures
+</center>
 
 ---
 # PSO for crystal structure prediction
+<br>
 
-Et là paf dire ô combien cette méthode est magique pour les trois phases : découverte de nouvelles phases avec peu d'itérations
+> Authors also discovered the existence of another mixture : AQH $\footnotesize\longrightarrow( \mathrm{H}_2\mathrm{O})(\mathrm{N}\mathrm{H}_3)_4$
+<center>
 
----
-# PSO for crystal structure prediction
-Là on peut dire que y'a même une nouvelle phase qui a été découverte !
-
----
-
-# Slide 1: Introduction
-
-Definition: Particle Swarm Optimization (PSO) is a population-based optimization algorithm that simulates the social behavior of birds or insects, such as flocking or swarming.
-Objective: The goal of PSO is to find the optimal solution to a given optimization problem, such as finding the minimum or maximum of a function, or the best configuration of a system.
+![height:370px](figures/AQH.png)
+**Figure 8:** AQH-$\small P2_1/m$ structure at 40 GPa
+</center>
 
 ---
-# Slide 2: How it works
+# Elaboration of final phase diagram
+<br><center>
 
-Each "particle" in the swarm represents a potential solution to the optimization problem.
-The particles move through the solution space and update their position based on their own experience and the experience of other particles.
-The position of each particle is updated using a velocity vector, which is influenced by the particle's current position, the best position it has found so far (called the "personal best"), and the best position found by the entire swarm (called the "global best").
-The velocity and position updates are performed iteratively until a satisfactory solution is found or a predetermined number of iterations is reached.
+![height:500px](figures/phase-diagram.png)
+**Figure 9:** Phase diagram for binary ammonia-water mixtures as a function of pressure
 
----
-# Slide 3: Advantages and disadvantages
-
-## Advantages: 
-PSO is simple to implement, has few parameters to tune, and can handle large and complex optimization problems. It is also robust and can find good solutions quickly.
-## Disadvantages: 
-PSO is sensitive to the initial positions of the particles and can get stuck in local optima. It may also require more computational resources compared to some other optimization algorithms.
+</center>
 
 ---
-# Slide 4: Applications
-
-PSO has been applied to various fields, including engineering, computer science, finance, and biology. Some examples of problems that have been solved using PSO include:
-* Function optimization
-* Feature selection
-* Clustering
-* Neural network training
-* Scheduling
-* Control
-* Data mining
-
----
-# Slide 5: Conclusion
-
-In summary, PSO is a powerful and versatile optimization algorithm that can find good solutions to a wide range of problems. However, it may not always be the best choice for every problem, and it is important to consider the trade-offs and limitations of using PSO.
+<!--footer: ""-->
+# Conclusion
+* Discovery of **a new phase and new stable structures** using Particle Swarm Optimization
+* Techniques implemented in the algorithm by Wang et al. (symmetry constraints, bond characterization matrix), make it possible to **reduce the number of iterations**
+* PSO seems like a good method for this study case
+* But will certainly not become the gold standard
+  - Dynamics are not implemented
+  - When starting point is given, some techniques might be faster
