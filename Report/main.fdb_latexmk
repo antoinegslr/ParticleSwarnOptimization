@@ -1,13 +1,13 @@
 # Fdb version 3
-["bibtex main"] 1673303903 "main.aux" "main.bbl" "main" 1673304415
+["bibtex main"] 1673451437 "main.aux" "main.bbl" "main" 1673463532
   "articles.bib" 1673303361 7384 856148932e50c03a1ebe988748ae16c0 ""
   "bibstyle.bst.bst" 0 -1 0 ""
-  "main.aux" 1673304414 3476 b7bee13ed9d91c7f71b8a394b74f8afb "pdflatex"
+  "main.aux" 1673463531 3476 c18e80f9e5bc35e5ef0408794ca1a9f1 "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
-["pdflatex"] 1673304409 "c:/Users/antoi/Documents/git/PSO/ParticleSwarnOptimization/Report/main.tex" "main.pdf" "main" 1673304415
-  "c:/Users/antoi/Documents/git/PSO/ParticleSwarnOptimization/Report/main.tex" 1673304408 19166 025ca93a9f94131581e6b27d1dcb8b63 ""
+["pdflatex"] 1673463526 "c:/Users/antoi/Documents/git/PSO/ParticleSwarnOptimization/Report/main.tex" "main.pdf" "main" 1673463532
+  "c:/Users/antoi/Documents/git/PSO/ParticleSwarnOptimization/Report/main.tex" 1673463525 19180 7a65ed943d73c935adc96ba14c85defe ""
   "c:/texlive/2022/texmf-dist/fonts/map/fontname/texfonts.map" 1649249631 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "c:/texlive/2022/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1649247783 1004 54797486969f23fa377b128694d548df ""
   "c:/texlive/2022/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1649247783 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -123,10 +123,10 @@
   "figures/ite1.png" 1672347306 1252432 662ee20d8e5331f14ff752655bb289e6 ""
   "figures/optim_figures.png" 1672230889 709531 19c7125437fcfce99e095bc86ef95b6f ""
   "figures/phase-diagram.png" 1672354074 134209 1cf54c5e63ed2d4b5c30f6f85e972bc4 ""
-  "main.aux" 1673304414 3476 b7bee13ed9d91c7f71b8a394b74f8afb "pdflatex"
-  "main.bbl" 1673303904 2752 6c294a34e37c8021917e681e60e166bd "bibtex main"
+  "main.aux" 1673463531 3476 c18e80f9e5bc35e5ef0408794ca1a9f1 "pdflatex"
+  "main.bbl" 1673451437 2752 6c294a34e37c8021917e681e60e166bd "bibtex main"
   "main.out" 0 -1 0 "pdflatex"
-  "main.tex" 1673304408 19166 025ca93a9f94131581e6b27d1dcb8b63 ""
+  "main.tex" 1673463525 19180 7a65ed943d73c935adc96ba14c85defe ""
   (generated)
   "main.aux"
   "main.log"
