@@ -132,7 +132,7 @@ $$v_{i,j}^{t+1}=\omega v_{i,j}^t+c_1r_1(\verb+pbest+_{i,j}^t-x_{i,j}^t)+c_2r_2(\
 ---
 <!-- footer: ""-->
 # How does it work?
-1. Generation of one random structure per symmetry
+1. Generation of random structure using symmetry restraints
 2. Local optimization of every structure
 3. Exclusion of similar structures *(through bond characterization matrix)*
 4. Generation of new structures by PSO, using personal and flock's hystories (global best minimum $\verb+gbest+$ and personnal best minimum $\verb+pbest+$)
